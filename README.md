@@ -1,5 +1,5 @@
-Mirror of [Litarvan/pronote-api](https://github.com/Litarvan/pronote-api)
-# Pronote API - LISEZ MOI ABSOLUMENT
+# Pronote API - Fork de l'API de Litarvan
+![image](https://user-images.githubusercontent.com/32978709/192026445-95c4daf0-ac9c-4421-a68f-08da118117e6.png)
 
 ![GitHub Workflow Status (branch)](https://img.shields.io/github/workflow/status/dorian-eydoux/pronote-api/Node.js%20linting%20and%20testing/master?label=tests&logo=github&style=flat-square)
 [![MIT license](https://img.shields.io/badge/license-MIT-lightgray?style=flat-square)](LICENSE)
@@ -86,7 +86,7 @@ Sinon, l'API propose de se connecter à Pronote avec des comptes des académies 
 ### Librairie
 
 ```
-$ npm i --save @dorian-eydoux/pronote-api
+// Pas de package NPM pour le moment
 ```
 
 ```javascript
