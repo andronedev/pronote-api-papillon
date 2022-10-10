@@ -35,7 +35,7 @@ type Lesson {
 }
 
 type Ical {
-    iCalURL: string
+    iCalURL: String
 }
 
 type Marks {
