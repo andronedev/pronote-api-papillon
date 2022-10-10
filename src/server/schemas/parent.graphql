@@ -1,5 +1,6 @@
 extend type Query {
     timetable(student: String!, from: Date, to: Date): [Lesson!]
+    ical : [Ical]
     marks(student: String!, period: String): Marks
     evaluations(student: String!, period: String): [EvaluationSubject!]
     absences(student: String!, period: String, from: Date, to: Date): Absences

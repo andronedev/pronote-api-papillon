@@ -34,6 +34,10 @@ type Lesson {
     remoteLesson: Boolean
 }
 
+type Ical {
+    iCalURL: string
+}
+
 type Marks {
     subjects: [MarksSubject]!
     averages: MarksAverages!

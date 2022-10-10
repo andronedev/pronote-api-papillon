@@ -1,5 +1,6 @@
 extend type Query {
     timetable(from: Date, to: Date): [Lesson!]
+    ical : [Ical]
     marks(period: String): Marks
     evaluations(period: String): [EvaluationSubject!]
     absences(period: String, from: Date, to: Date): Absences
@@ -19,3 +20,4 @@ extend type PronoteUser {
     tabsPillars: [PronoteTabPillars!]!
     tabsPeriods: [PronoteTabPeriods!]!
 }
+

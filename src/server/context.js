@@ -22,6 +22,7 @@ function common(session) {
 function student(session) {
     return {
         timetable: ({ from, to }) => session.timetable(from, to),
+        ical: () => session.ical(session,user),
         marks: ({ period }) => session.marks(period),
         evaluations: ({ period }) => session.evaluations(period),
         absences: ({ period, from, to }) => session.absences(period, from, to),
@@ -46,6 +47,7 @@ function parent(session) {
 
     return {
         timetable: ({ student, from, to }) => session.timetable(getStudent(student), from, to),
+        ical: () => session.ical(session,user),
         marks: ({ student, period }) => session.marks(getStudent(student), period),
         evaluations: ({ student, period }) => session.evaluations(getStudent(student), period),
         absences: ({ student, period, from, to }) => session.absences(getStudent(student), period, from, to),
